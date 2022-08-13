@@ -17,51 +17,77 @@
   </head>
 
   <body>
-    <nav>
-      <img src="./images/slack-logo.png" alt="slack_logo" />
-      <ul>
+    <nav id="fixed">
+      <img id="slack-image" src="./images/slack-logo.png" alt="slack_logo" />
+
+      <ul id="menu-bar">
         <li>Why Slack?</li>
         <li>Pricing</li>
         <li>About Us</li>
         <li>Your Workspaces</li>
       </ul>
     </nav>
+
     <header>
-      <img src="./images/home_talking.png" alt="home_work_happening" />
+      <br />
+      <br />
+      <br />
       <h1>Where Work Happens</h1>
-      <p>
+      <p id="first-text">
         When your team needs to kick off a project, hire a new employee, deploy
         some code, review a sales contract, finalize next year's budget, measure
         an A/B test, plan your next office opening, and more, Slack has you
         covered.
       </p>
-      <button type="button" name="button">GET STARTED</button>
+      <input type="email" placeholder="Email address" />
+      <button id="get-started" type="button" name="button">GET STARTED</button>
       <p>Already using Slack? <a href="#">Sign in</a></p>
+      <img
+        id="image2"
+        src="./images/home_talking.png"
+        alt="home_work_happening"
+      />
     </header>
     <main>
-      <div>
+      <div id="dark-background">
         <h2>You're in good company</h2>
         <p>
           Millions of people around the world have already made Slack the place
           where their work happens.
         </p>
-        <button>DISCOVER WHY</button>
+        <button id="discover-why">DISCOVER WHY</button>
         <img src="./images/airbnb-logo.png" alt="" />
+        <br />
+        <hr />
         <img src="./images/capital-one-logo.png" alt="" />
+        <br />
+        <hr />
         <img src="./images/harvard-logo.png" alt="" />
+        <br />
+        <hr />
         <img src="./images/los-angeles-times-logo.png" alt="" />
+        <br />
+        <hr />
         <img src="./images/oracle-logo.png" alt="" />
+        <br />
+        <hr />
         <img src="./images/ticketmaster-logo.png" alt="" />
       </div>
       <div>
-        <p>Try it for free</p>
-        <p>Already using Slack? <a href="">Sign in</a></p>
-        <button type="button" name="button">GET STARTED</button>
+        <p id="bold">Try it for free</p>
+        <p id="question">
+          Already using Slack? <a href="" id="singIn">Sign in</a>
+        </p>
+        <input size="42" type="email" placeholder="Email address" id="email1" />
+        <br />
+        <button type="button" name="button" id="get-started">
+          GET STARTED
+        </button>
       </div>
     </main>
     <footer>
       <div>
-        <img src="./images/iso-slack.png" alt="" />
+        <img id="image3" src="./images/iso-slack.png" alt="" />
         <ul>
           <li>COMPANY</li>
           <li>About Us</li>
@@ -95,7 +121,7 @@
           <li>Slack Fund</li>
         </ul>
       </div>
-      <div>
+      <div id="last-section">
         <ul>
           <li>Status</li>
           <li>Privacy & Terms</li>

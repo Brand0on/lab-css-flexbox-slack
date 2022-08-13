@@ -5,3 +5,109 @@ main-titles dark-grey: #2C303F;
 paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
+
+body {
+  font-family: sans-serif;
+  width: 70%;
+  margin: 0 auto;
+  color:rgb(117, 118, 119)
+}
+#dark-background{
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  #fixed {
+    position: fixed;
+    display:flex;
+    background-color: aliceblue;
+    width: 100%;
+  }
+  #slack-image {
+    display: block;
+    width: 130px;
+  }
+  #menu-bar {
+    display: flex;
+    list-style: none;
+    margin: 8-%;
+    padding: px;
+    position: relative;
+  }
+  
+  
+  h1,
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+  }
+  #first-text {
+    witdh: 300px;
+  }
+  input {
+    display: block;
+    width: 200px;
+  }
+  #get-started {
+    width: 208px;
+    background-color: rgb(72, 72, 214);
+    color: white-space: ;
+    
+  }
+  #image2 {
+    display: flex;
+    margin: 20px;
+  }
+  #discover-why{
+    display: block;
+    padding:9px;
+    width: 300px;
+    
+    
+  }
+  hr{
+    width: 80%;
+    color: rgb(255, 255, 255);
+  }
+  main img{
+    width: 70%;
+    display: flexbox;
+    align-items: center;
+
+    
+  }
+  #bold{
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+  }
+  #image3{
+    width: 200px;
+    display: flex;;
+  }
+  footer ul{
+    display:;
+    list-style: none;
+  }
+
+  footer ul :first-child{
+    color: black;
+  }
+  #last-section{
+    background-color: rgb(207, 207, 207);
+    margin: 0 auto;
+  }
+  #last-section ul{
+    display: flex;
+  }
+  #last-section ul li{
+    padding: 15px
+  }
+
+}
+
+@media (max-width: 961px ){
+
+  header input {
+    display: inline;
+  }
+}
